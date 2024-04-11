@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  Arial;
+    color: black;
+
+    
+    
+}
+#wrapper{
+    margin: 0px;
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height:120px;
+    top: 0;
+    position: sticky;
+    background: white;
+    position: -webkit-sticky;
+    display: block;
+    z-index: 1;
+    
+   
+    
+}
+main{
+    width: 58%;
+    height: 4500px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    justify-content: center;
+    margin-left: 390px;
+    margin-top: 50px;
+}
+
+footer{
+    width: 100%;
+    height: 700px;
+    clear: both;
+    background-color: rgb(255, 255, 255);
+    margin-top: 70px;
+
+}
+.header-1{
+    padding-top: 5px;
+    display: flex;
+}
+.header-logo img {
+    width:100px;
+    height: 100px;
+    margin-left:160px;
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+
+#sub-menu{
+font-size: 20px;
+display: flex;
+list-style-type: none;
+margin:20px;
+margin-left: 140px;
+margin-top:30px;
+}
+#sub-menu li{
+    position: relative;
+}
+#sub-menu li a{
+    text-decoration: none;
+    margin-left:40px;
+    cursor: pointer;
+    display: block;
+    line-height: 40px;
+}
+#sub-menu li a:hover{
+    color: rgb(255, 102, 0);
+}
+.header-2 a:hover{
+cursor: pointer;
+color: orange;
+}
+.header-2 a{
+    text-decoration: none;
+    border: 1px solid orange;
+    padding: 2px;
+    font-size: 20px;
+   
+}
+.header-2{
+    margin-top:38px;
+    margin-left:200px;
+}
+
+#sub-menu ul.sub-menu-1{
+    position: absolute;
+    background: white;
+    padding: 0px ;
+    list-style: none;
+    width: 320px;
+    border: 1px solid rgb(248, 225, 217);
+    display: none;
+}
+#sub-menu li:hover>ul.sub-menu-1{
+    display: block;
+} 
+#sub-menu ul.sub-menu-1 a{
+padding: 5px 20px;
+
+left: 0px;
+margin-left: 0px;
+
+}
+#sub-menu ul.sub-menu-1 li:last-child a{
+    border: none;
+}
+#sub-menu ul.sub-menu-1 ul.sub-menu-1{
+left: 318px;
+border: 1px solid rgb(248, 225, 217);
+top:-1px
+
+}
+
+.content-main h1{
+    text-align: center;
+    color: blue;
+    margin-bottom: 20px;
+}
+.content-1 h2{
+    float: left;
+    display: flex;
+    margin-top: 50px;
+    color: blue;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.content-2 ul {
+    margin-top: 100px;
+    margin-left: -140px;
+}
+.content-2 li a{
+    text-decoration: none;
+    line-height: 30px;
+}
+.content-2 li a:hover{
+    color: orange;
+}
+.content-3 ul {
+    margin-top: 100px;
+    margin-left: 0px;
+}
+.content-3 li a{
+    text-decoration: none;
+    line-height: 30px;
+}
+.content-3 li a:hover{
+    color: orange;
+}
+.content-mid-1{
+    display: flex;
+    float: left;
+    margin-top: 80px;
+}
+.content-mid-11 h2{
+    color: blue;
+    margin-left: 480px;
+    margin-top: 150px;
+    position: absolute;
+}
+.pp-1{
+    display: flex;float: left;margin-top: 200px; margin-left: 100px;
+}
+.content-mid-3 li a{
+    text-decoration: none;
+    line-height: 30px;
+}
+.content-mid-3 li a:hover{
+    color: orange;
+}
+.content-mid-4 ul{
+margin-left: 180px;
+}
+.content-mid-4 li a{
+    text-decoration: none;
+    line-height: 30px;
+}
+.content-mid-4 li a:hover{
+    color: orange;
+}
+.content-main-12{
+    margin-top: 500px;
+}
+
+
+.boder-footer{
+    border: 5px solid black;
+   margin: 10px auto;
+
+}
+.footer-img img{
+    width: 390px;
+    height: 418px;
+    display: flex;
+    float: left;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.footer-content{
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 110px;
+   float: left;
+   display: block;
+    
+}
+.footer-content p{
+    margin-left: 30px;
+    font-family: 'averta';
+    text-align: left;
+}
+.footer-content-1 {
+    display: block;
+    margin-top: 420px;
+    position: absolute;
+}
+.footer-content-1 h2{
+    font-size: 17px;
+    line-height: 25px;
+    
+}
+.footer-content-1 a{
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 620px;
+}
+.footer-content-1 a:hover{
+    color: orange;
+}
+.footer-content-2 {
+    display: block;
+    position: absolute;
+    margin-top: 420px;
+}
+.footer-content-2 h2{
+    font-size: 17px;
+    line-height: 25px;
+    
+}
+.footer-content-2 a{
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 950px;
+}
+.footer-content-2 a:hover{
+    color: orange;
+}
+.img-footer img{
+    width: 30px;height: 30px;
+    cursor: pointer;
+    
+    }
+
